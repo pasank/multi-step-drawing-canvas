@@ -1,0 +1,60 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="multistepstyles.css">
+  <link rel="stylesheet" type="text/css" href="divtablestyles.css">
+  <script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="jquery.easing.min.js"></script>
+  <script type="text/javascript" src="multisteps.js"></script>
+  <script type="text/javascript" src="drawingcanvas.js"></script>
+</head>
+
+<body>
+  <!-- multistep form -->
+  <form id="msform">
+      <fieldset>
+      <h2 class="fs-title">Task...</h2>
+      <p style="text-align:justify"> What we would like you to do: Part 1 <br><br>
+        We will provide you with a word-phrase... REDACTED
+     <input type="button" name="next" class="next action-button" value="Next" />
+      <input type="hidden" name="fsnum" value="-"/>
+    </fieldset>
+
+    <fieldset>
+      <h2 class="fs-title">Task...</h2>
+      <p style="text-align:justify"> What we would like you to do: Part 1 <br><br>
+        The following questions will test your understanding about the rating task: <br><br>
+        <p style="text-align:justify">What am I asked to rate about the word phrases?</p> <br>
+
+        <div id="rebusunderstanddiv">
+            <input type="radio" id="a" name="rebusunderstand" value="sel1">REDACTED 1<br><br>
+            <input type="radio" id="b" name="rebusunderstand" value="sel2">REDACTED 2<br><br>
+            <input type="radio" id="c" name="rebusunderstand" value="sel3">REDACTED 3<br><br>
+        </div>
+
+        <p id="rebusunderstandfeedback"> wrong/right </p>
+
+       <!--  <p style="text-align:justify"> Try to produce a creative puzzle as possible. Creativity is defined as "original, innovative, and clever." <br><br>
+
+        After you draw the first puzzle, click "submit." A second word-phase will then appear. Follow the same process. After the second puzzle is submitted, this part of the experiment will end.</p> -->
+     <input type="button" name="next_rebusunderstand" class="next action-button" value="Next" id="next" disabled/>
+      <input type="hidden" name="fsnum" value="-"/>
+    </fieldset>
+
+
+      <fieldset>
+      <h2 class="fs-title">What we would like you to do: Part 2</h2>
+      <p style="text-align:justify"> Imagine you have been asked to REDACTED</p>
+
+       <div class="divTable">
+      <div class="divTableBody">
+
+      </div>
+      </div>
+      </div>
+      <!-- DivTable.com-->
+
+      <input type="button" name="next_rebus1" id="next" class="next action-button" value="Next" disabled/>
+      <input type="hidden" name="fsnum" value="4"/>
+    </fieldset> 
+
+</form>
+</body>

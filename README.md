@@ -1,0 +1,1 @@
+Website which presents drawing canvases in multiple steps to research participants and saves drawn responses. Uses vanilla JQuery+Javascript for client-side code and PHP for server side. 
